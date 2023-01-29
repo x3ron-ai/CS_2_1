@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Security.Cryptography;
@@ -48,7 +48,6 @@ namespace CSharpProj1
             pole3_2.Content = "";
             pole3_3.IsEnabled = true;
             pole3_3.Content = "";
-            startButton.IsEnabled = false;
             RezTextBox.Text = "";
             tictac = new TicTacToe();
             playing_x = !playing_x;
